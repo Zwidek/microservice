@@ -10,6 +10,7 @@ After this, you can enjoy, and start applications. If you want to run more servi
 Here is also used load balancer - in short, CustomerApp hits to FreudApp, if run FreudApp on multiple ports, you will notice in console, how request spreads between app.
 
 Added queue messages using RabbitMQ (:
+Added distrubuted tracing log using Spring Cloud Sleuth and Zipkin 
 
 ![image](https://user-images.githubusercontent.com/82658699/193277155-eb26bf14-5e45-497a-9172-327d21c15d1a.png)
 
