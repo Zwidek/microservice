@@ -1,5 +1,7 @@
-package com.zwidek.fraud;
+package com.zwidek.fraud.controller;
 
+import com.zwidek.fraud.model.FraudCheckResponse;
+import com.zwidek.fraud.service.FraudCheckService;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
