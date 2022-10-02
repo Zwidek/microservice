@@ -1,5 +1,9 @@
-package com.zwidek.customer;
+package com.zwidek.customer.service;
 
+import com.zwidek.customer.model.CustomerRegistrationRequest;
+import com.zwidek.customer.model.FraudCheckResponse;
+import com.zwidek.customer.model.Customer;
+import com.zwidek.customer.repository.CustomerRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
