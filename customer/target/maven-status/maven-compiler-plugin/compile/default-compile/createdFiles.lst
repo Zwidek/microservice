@@ -1,9 +1,9 @@
-com\zwidek\customer\CustomerRepository.class
-com\zwidek\customer\Customer$CustomerBuilder.class
-com\zwidek\customer\CustomerRegistrationRequest.class
-com\zwidek\customer\CustomerController.class
-com\zwidek\customer\CustomerConfig.class
-com\zwidek\customer\FraudCheckResponse.class
-com\zwidek\customer\Customer.class
+com\zwidek\customer\model\Customer.class
+com\zwidek\customer\controller\CustomerController.class
+com\zwidek\customer\model\CustomerRegistrationRequest.class
+com\zwidek\customer\model\FraudCheckResponse.class
+com\zwidek\customer\repository\CustomerRepository.class
+com\zwidek\customer\service\CustomerService.class
+com\zwidek\customer\configuration\CustomerConfig.class
 com\zwidek\customer\CustomerApplication.class
-com\zwidek\customer\CustomerService.class
+com\zwidek\customer\model\Customer$CustomerBuilder.class

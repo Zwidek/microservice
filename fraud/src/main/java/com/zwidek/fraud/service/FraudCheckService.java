@@ -1,5 +1,7 @@
-package com.zwidek.fraud;
+package com.zwidek.fraud.service;
 
+import com.zwidek.fraud.model.FraudCheckHistory;
+import com.zwidek.fraud.repository.FraudCheckHistoryRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 

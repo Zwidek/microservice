@@ -1,5 +1,9 @@
-package com.zwidek.customer;
+package com.zwidek.customer.controller;
 
+import com.zwidek.customer.model.Customer;
+import com.zwidek.customer.model.CustomerRegistrationRequest;
+import com.zwidek.customer.repository.CustomerRepository;
+import com.zwidek.customer.service.CustomerService;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
