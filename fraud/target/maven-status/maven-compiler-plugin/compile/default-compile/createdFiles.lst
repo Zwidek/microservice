@@ -1,7 +1,7 @@
-com\zwidek\fraud\FraudCheckResponse.class
-com\zwidek\fraud\FraudCheckService.class
-com\zwidek\fraud\FraudController.class
-com\zwidek\fraud\FraudCheckHistory$FraudCheckHistoryBuilder.class
-com\zwidek\fraud\FraudCheckHistory.class
-com\zwidek\fraud\FraudCheckHistoryRepository.class
+com\zwidek\fraud\repository\FraudCheckHistoryRepository.class
+com\zwidek\fraud\controller\FraudController.class
+com\zwidek\fraud\model\FraudCheckHistory$FraudCheckHistoryBuilder.class
+com\zwidek\fraud\model\FraudCheckResponse.class
+com\zwidek\fraud\model\FraudCheckHistory.class
+com\zwidek\fraud\service\FraudCheckService.class
 com\zwidek\fraud\FraudApplication.class

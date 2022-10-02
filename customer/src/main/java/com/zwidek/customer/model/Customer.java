@@ -1,4 +1,4 @@
-package com.zwidek.customer;
+package com.zwidek.customer.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

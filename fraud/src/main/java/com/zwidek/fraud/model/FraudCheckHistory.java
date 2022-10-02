@@ -1,4 +1,4 @@
-package com.zwidek.fraud;
+package com.zwidek.fraud.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
