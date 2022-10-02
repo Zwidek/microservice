@@ -8,6 +8,8 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
+import java.util.Objects;
+
 @Service
 @RequiredArgsConstructor
 public class CustomerService {
@@ -22,14 +24,14 @@ public class CustomerService {
                 .build();
         // todo check if email valid
         // todo: check if email not taken
+        customerRepository.saveAndFlush(customer);
         // todo: check if fraudster
         FraudCheckResponse response = restTemplate.getForObject("http://FRAUD/api/v1/fraud-check/{customerId}",
                 FraudCheckResponse.class,
                 customer.getId()
         );
-        if (response.isFraudster() || response.equals(null)) {
+        if (Objects.requireNonNull(response).isFraudster()) {
             throw new IllegalStateException("fraudster");
         }
-        customerRepository.saveAndFlush(customer);
     }
 }
