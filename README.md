@@ -11,7 +11,7 @@ Here is also used load balancer - in short, CustomerApp hits to FreudApp, if run
 
 Added queue messages using RabbitMQ 
 
-Added distrubuted tracing log using Spring Cloud Sleuth and Zipkin 
+Added distrubuted tracing log using Spring Cloud Sleuth. MDC, Zipkin 
 
 ![image](https://user-images.githubusercontent.com/82658699/193277155-eb26bf14-5e45-497a-9172-327d21c15d1a.png)
 
