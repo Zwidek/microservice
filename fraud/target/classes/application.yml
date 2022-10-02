@@ -14,10 +14,10 @@ spring:
         format_sql: 'true'
     hibernate:
       ddl-auto: create-drop
-    show-sql: true
+    show-sql: false
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka
-    fetch-registry: true
-    register-with-eureka: true
+      fetch-registry: true
+      register-with-eureka: true

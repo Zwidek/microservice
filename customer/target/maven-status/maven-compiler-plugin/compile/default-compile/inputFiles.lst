@@ -1,8 +1,9 @@
-C:\Users\Zwidek\Desktop\Programowanie\Projekty IDE\microservice\customer\src\main\java\com\zwidek\customer\CustomerRegistrationRequest.java
 C:\Users\Zwidek\Desktop\Programowanie\Projekty IDE\microservice\customer\src\main\java\com\zwidek\customer\CustomerApplication.java
-C:\Users\Zwidek\Desktop\Programowanie\Projekty IDE\microservice\customer\src\main\java\com\zwidek\customer\CustomerConfig.java
-C:\Users\Zwidek\Desktop\Programowanie\Projekty IDE\microservice\customer\src\main\java\com\zwidek\customer\CustomerRepository.java
-C:\Users\Zwidek\Desktop\Programowanie\Projekty IDE\microservice\customer\src\main\java\com\zwidek\customer\Customer.java
-C:\Users\Zwidek\Desktop\Programowanie\Projekty IDE\microservice\customer\src\main\java\com\zwidek\customer\CustomerController.java
-C:\Users\Zwidek\Desktop\Programowanie\Projekty IDE\microservice\customer\src\main\java\com\zwidek\customer\FraudCheckResponse.java
-C:\Users\Zwidek\Desktop\Programowanie\Projekty IDE\microservice\customer\src\main\java\com\zwidek\customer\CustomerService.java
+C:\Users\Zwidek\Desktop\Programowanie\Projekty IDE\microservice\customer\src\main\java\com\zwidek\customer\model\Customer.java
+C:\Users\Zwidek\Desktop\Programowanie\Projekty IDE\microservice\customer\src\main\java\com\zwidek\customer\repository\CustomerRepository.java
+C:\Users\Zwidek\Desktop\Programowanie\Projekty IDE\microservice\customer\src\main\java\com\zwidek\customer\configuration\CustomerConfig.java
+C:\Users\Zwidek\Desktop\Programowanie\Projekty IDE\microservice\customer\src\main\java\com\zwidek\customer\model\FraudCheckResponse.java
+C:\Users\Zwidek\Desktop\Programowanie\Projekty IDE\microservice\customer\src\main\java\com\zwidek\customer\aspekt\LoggInitializer.java
+C:\Users\Zwidek\Desktop\Programowanie\Projekty IDE\microservice\customer\src\main\java\com\zwidek\customer\controller\CustomerController.java
+C:\Users\Zwidek\Desktop\Programowanie\Projekty IDE\microservice\customer\src\main\java\com\zwidek\customer\service\CustomerService.java
+C:\Users\Zwidek\Desktop\Programowanie\Projekty IDE\microservice\customer\src\main\java\com\zwidek\customer\model\CustomerRegistrationRequest.java
