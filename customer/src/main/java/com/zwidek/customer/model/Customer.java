@@ -10,6 +10,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.SequenceGenerator;
+import javax.validation.constraints.Email;
 
 @Data
 @Builder
@@ -30,5 +31,6 @@ public class Customer {
     private Integer id;
     private String firstName;
     private String lastName;
+    @Email
     private String email;
 }
