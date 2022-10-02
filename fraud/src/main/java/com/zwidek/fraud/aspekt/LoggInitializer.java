@@ -21,14 +21,12 @@ public class LoggInitializer {
 
     @Around("restController()")
     public Object dodajUuid(ProceedingJoinPoint joinPoint) throws Throwable {
+        String uuid = UUID.randomUUID().toString();
         try {
-            String uuid = UUID.randomUUID().toString();
             MDC.put("uuid", uuid);
-            System.out.println("Uuid " + uuid);
             return joinPoint.proceed();
         } finally {
             MDC.remove("uuid");
-            System.out.println("Uuid remove");
         }
     }
 }
