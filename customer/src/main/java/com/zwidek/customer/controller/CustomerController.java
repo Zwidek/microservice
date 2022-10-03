@@ -40,9 +40,9 @@ public class CustomerController {
         return customerRepository.findAll();
     }
 
-    @GetMapping
+    @GetMapping("/{customer}")
     public ResponseEntity<Customer> getCustomerById(@PathVariable Integer id) {
-        return customerRepository.findById(id)
+        return customerService.findCustomerById(id)
                 .map(ResponseEntity::ok)
                 .orElse(ResponseEntity.notFound().build());
     }

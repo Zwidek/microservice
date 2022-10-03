@@ -10,6 +10,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
 import java.util.Objects;
+import java.util.Optional;
 
 @Service
 @RequiredArgsConstructor
@@ -36,5 +37,9 @@ public class CustomerService {
         if (Objects.requireNonNull(response).isFraudster()) {
             throw new IllegalStateException("fraudster");
         }
+    }
+
+    public Optional<Customer> findCustomerById(Integer id) {
+        return customerRepository.findById(id);
     }
 }

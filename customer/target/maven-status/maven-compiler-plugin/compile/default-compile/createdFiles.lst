@@ -2,6 +2,7 @@ com\zwidek\customer\model\Customer.class
 com\zwidek\customer\controller\CustomerController.class
 com\zwidek\customer\model\FraudCheckResponse.class
 com\zwidek\customer\repository\CustomerRepository.class
+com\zwidek\customer\controller\CustomerControllerAdvice.class
 com\zwidek\customer\configuration\CustomerConfig.class
 com\zwidek\customer\model\Customer$CustomerBuilder.class
 com\zwidek\customer\actuator\CustomerInfoContributor.class
