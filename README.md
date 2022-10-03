@@ -5,15 +5,21 @@ Here is example of microservice
 
 To run app just type in terminal
 "docker compose up -d"  (must be downloaded docker before)
-then you have to log in into pgAdmin and create server (host: postgres name: root, password: root) with 2 databases (customer and fraud)
+then you have to log in into pgAdmin and create server (host: postgres name: root, password: root) with 2 databases (
+customer and fraud)
 After this, you can enjoy, and start applications. If you want to run more services - just change port and go!
-Here is also used load balancer - in short, CustomerApp hits to FreudApp, if you run FreudApp on multiple ports, you will notice in console, how request spreads between app.
+Here is also used load balancer - in short, CustomerApp hits to FreudApp, if you run FreudApp on multiple ports, you
+will notice in console, how request spreads between app.
 
-Added queue messages using RabbitMQ 
+Changes:
 
-Added distrubuted tracing log using Spring Cloud Sleuth. MDC, Zipkin 
+Added queue messages using RabbitMQ
+
+Added distrubuted tracing log using Spring Cloud Sleuth. MDC, Zipkin
 
 Implemented Actuator
+
+Added Spring Cloud Config
 
 Screenshots from app:
 

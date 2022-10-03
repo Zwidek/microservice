@@ -1,0 +1,21 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+      fetch-registry: true
+      register-with-eureka: true
+logging:
+  pattern:
+    console: logging.pattern.console=%d{yyyy-MM-dd HH:mm:ss} [%X{uuid}] - %msg%n
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, info, beans, loggers
+    enabled-by-default: false
+  endpoint:
+    health:
+      enabled: true
+      show-details: always
+    info:
+      enabled: true

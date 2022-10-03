@@ -14,6 +14,10 @@ public class FraudCheckService {
 
     private final FraudCheckHistoryRepository fraudCheckHistoryRepository;
 
+    public List<FraudCheckHistory> fraudCheckHistories() {
+        return fraudCheckHistoryRepository.findAll();
+    }
+
     public boolean isFraudulentCustomer(Integer customerid) {
         fraudCheckHistoryRepository.save(
                 FraudCheckHistory.builder()
@@ -24,9 +28,4 @@ public class FraudCheckService {
         );
         return false;
     }
-
-    public List<FraudCheckHistory> fraudCheckHistories() {
-        return fraudCheckHistoryRepository.findAll();
-    }
-
 }
