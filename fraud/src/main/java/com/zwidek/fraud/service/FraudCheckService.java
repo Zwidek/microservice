@@ -6,6 +6,7 @@ import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
+import java.util.List;
 
 @AllArgsConstructor
 @Service
@@ -13,7 +14,7 @@ public class FraudCheckService {
 
     private final FraudCheckHistoryRepository fraudCheckHistoryRepository;
 
-    public boolean isFraudulentCustomer(Integer customerid){
+    public boolean isFraudulentCustomer(Integer customerid) {
         fraudCheckHistoryRepository.save(
                 FraudCheckHistory.builder()
                         .customerId(customerid)
@@ -23,4 +24,9 @@ public class FraudCheckService {
         );
         return false;
     }
+
+    public List<FraudCheckHistory> fraudCheckHistories() {
+        return fraudCheckHistoryRepository.findAll();
+    }
+
 }
