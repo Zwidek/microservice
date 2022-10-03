@@ -1,6 +1,8 @@
 C:\Users\Zwidek\Desktop\Programowanie\Projekty IDE\microservice\fraud\src\main\java\com\zwidek\fraud\model\FraudCheckResponse.java
+C:\Users\Zwidek\Desktop\Programowanie\Projekty IDE\microservice\fraud\src\main\java\com\zwidek\fraud\aspekt\LoggInitializer.java
 C:\Users\Zwidek\Desktop\Programowanie\Projekty IDE\microservice\fraud\src\main\java\com\zwidek\fraud\model\FraudCheckHistory.java
 C:\Users\Zwidek\Desktop\Programowanie\Projekty IDE\microservice\fraud\src\main\java\com\zwidek\fraud\controller\FraudController.java
 C:\Users\Zwidek\Desktop\Programowanie\Projekty IDE\microservice\fraud\src\main\java\com\zwidek\fraud\repository\FraudCheckHistoryRepository.java
 C:\Users\Zwidek\Desktop\Programowanie\Projekty IDE\microservice\fraud\src\main\java\com\zwidek\fraud\FraudApplication.java
+C:\Users\Zwidek\Desktop\Programowanie\Projekty IDE\microservice\fraud\src\main\java\com\zwidek\fraud\actuator\FraudInfoContributor.java
 C:\Users\Zwidek\Desktop\Programowanie\Projekty IDE\microservice\fraud\src\main\java\com\zwidek\fraud\service\FraudCheckService.java

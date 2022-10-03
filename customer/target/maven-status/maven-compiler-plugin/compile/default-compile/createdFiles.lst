@@ -4,6 +4,7 @@ com\zwidek\customer\model\FraudCheckResponse.class
 com\zwidek\customer\repository\CustomerRepository.class
 com\zwidek\customer\configuration\CustomerConfig.class
 com\zwidek\customer\model\Customer$CustomerBuilder.class
+com\zwidek\customer\actuator\CustomerInfoContributor.class
 com\zwidek\customer\aspekt\LoggInitializer.class
 com\zwidek\customer\model\CustomerRegistrationRequest.class
 com\zwidek\customer\service\CustomerService.class

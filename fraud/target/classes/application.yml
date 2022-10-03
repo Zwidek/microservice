@@ -24,3 +24,14 @@ eureka:
 logging:
   pattern:
     console: logging.pattern.console=%d{yyyy-MM-dd HH:mm:ss} [%X{uuid}] - %msg%n
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, info, beans, loggers
+    enabled-by-default: false
+  endpoint:
+    health:
+      enabled: true
+    info:
+      enabled: true

@@ -3,6 +3,7 @@ C:\Users\Zwidek\Desktop\Programowanie\Projekty IDE\microservice\customer\src\mai
 C:\Users\Zwidek\Desktop\Programowanie\Projekty IDE\microservice\customer\src\main\java\com\zwidek\customer\repository\CustomerRepository.java
 C:\Users\Zwidek\Desktop\Programowanie\Projekty IDE\microservice\customer\src\main\java\com\zwidek\customer\configuration\CustomerConfig.java
 C:\Users\Zwidek\Desktop\Programowanie\Projekty IDE\microservice\customer\src\main\java\com\zwidek\customer\model\FraudCheckResponse.java
+C:\Users\Zwidek\Desktop\Programowanie\Projekty IDE\microservice\customer\src\main\java\com\zwidek\customer\actuator\CustomerInfoContributor.java
 C:\Users\Zwidek\Desktop\Programowanie\Projekty IDE\microservice\customer\src\main\java\com\zwidek\customer\aspekt\LoggInitializer.java
 C:\Users\Zwidek\Desktop\Programowanie\Projekty IDE\microservice\customer\src\main\java\com\zwidek\customer\controller\CustomerController.java
 C:\Users\Zwidek\Desktop\Programowanie\Projekty IDE\microservice\customer\src\main\java\com\zwidek\customer\service\CustomerService.java
