@@ -1,0 +1,12 @@
+server:
+  port: 9296
+
+spring:
+  application:
+    name: CONFIG-SERVER
+  cloud:
+    config:
+      server:
+        git:
+          uri: file:\\C:\Users\Zwidek\Desktop\Programowanie\Projekty IDE\microservice\application.yml
+          clone-on-start: true
