@@ -15,6 +15,8 @@ Added distrubuted tracing log using Spring Cloud Sleuth. MDC, Zipkin
 
 Implemented Actuator
 
+Screenshots from app:
+
 ![image](https://user-images.githubusercontent.com/82658699/193277155-eb26bf14-5e45-497a-9172-327d21c15d1a.png)
 
 ![image](https://user-images.githubusercontent.com/82658699/193558875-cd52e0fb-7798-4916-917d-40f81f17f20f.png)
