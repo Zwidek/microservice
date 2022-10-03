@@ -9,3 +9,4 @@ com\zwidek\customer\aspekt\LoggInitializer.class
 com\zwidek\customer\model\CustomerRegistrationRequest.class
 com\zwidek\customer\service\CustomerService.class
 com\zwidek\customer\CustomerApplication.class
+com\zwidek\customer\actuator\CustomerHealthIndicator.class

@@ -3,13 +3,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>org.example</groupId>
         <artifactId>microservice</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <groupId>org.zwidek</groupId>
+        <version>${revision}</version>
     </parent>
     <groupId>com.zwidek</groupId>
     <artifactId>notification</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>4.0.0</version>
     <name>notification</name>
     <description>notification</description>
     <properties>
@@ -17,6 +17,10 @@
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
