@@ -15,11 +15,12 @@ Changes:
 
 Added queue messages using RabbitMQ
 
-Added distrubuted tracing log using Spring Cloud Sleuth. MDC, Zipkin
+Added distrubuted tracing log using Spring Cloud Sleuth. MDC, Zipkin (update: implemented Spring AOP - initialized aspect class)
 
 Implemented Actuator
 
-Added Spring Cloud Config
+Added Spring Cloud Config using github repo
+
 
 Screenshots from app:
 
