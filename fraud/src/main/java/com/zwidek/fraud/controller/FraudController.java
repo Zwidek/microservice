@@ -22,7 +22,6 @@ import java.util.List;
 public class FraudController {
 
     private final FraudCheckService fraudCheckService;
-    private final FraudCheckHistoryRepository fraudCheckHistoryRepository;
     private final Logger LOG = LoggerFactory.getLogger(this.getClass());
 
     @GetMapping(path = "/{customerId}")
