@@ -1,12 +1,16 @@
 server:
-  port: 9296
-
+  port: 8888
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
 spring:
-  application:
-    name: CONFIG-SERVER
   cloud:
     config:
       server:
         git:
-          uri: file:\\C:\Users\Zwidek\Desktop\Programowanie\Projekty IDE\microservice\application.yml
-          clone-on-start: true
+          uri: https://github.com/Zwidek/spring-cloud-config
