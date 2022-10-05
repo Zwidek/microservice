@@ -13,8 +13,6 @@ import static org.junit.jupiter.api.Assertions.assertAll;
 
 class FraudControllerTest {
 
-
-
     @Test
     @DisplayName("checkIfFraudCheckHistoryAllFieldsAreCorrect")
     void checkIfFraudCheckHistoryAllFieldsAreCorrect() {
@@ -22,13 +20,13 @@ class FraudControllerTest {
         FraudCheckHistory fraudCheckHistory1 = new FraudCheckHistory(5, 3, true, now);
 
         assertAll(
-                () -> {
-                    assertThat(fraudCheckHistory1.getId().intValue()).isEqualTo(5);
-                },
+                () -> assertThat(fraudCheckHistory1.getId().intValue()).isEqualTo(5),
                 () -> assertThat(fraudCheckHistory1.getCustomerId().intValue()).isEqualTo(3),
                 () -> assertThat(fraudCheckHistory1.getIsFraudster().booleanValue()).isTrue(),
                 () -> assertThat(fraudCheckHistory1.getCreatedAt()).isEqualTo(now)
         );
+    }
+
         /*
         softAssertions.assertThat(fraudCheckHistory1.getId().intValue()).isEqualTo(5);
         softAssertions.assertThat(fraudCheckHistory1.getCustomerId().intValue()).isEqualTo(3);
@@ -36,7 +34,6 @@ class FraudControllerTest {
         softAssertions.assertThat(fraudCheckHistory1.getCreatedAt()).isEqualTo(now);
         softAssertions.assertAll();
          */
-    }
 
     @Test
     void checkIfFraudCheckHistoryIsNotNull() {

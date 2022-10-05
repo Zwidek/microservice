@@ -18,6 +18,7 @@ public class CustomerHealthIndicator implements HealthIndicator {
 
     private final RestTemplate restTemplate;
 
+
     @Override
     public Health health() {
         log.info("Checking for connection between Customer and Fraud applications");
