@@ -8,7 +8,6 @@ import static org.junit.jupiter.api.Assertions.assertAll;
 
 class CustomerTest {
 
-
     @Test
     @DisplayName("Check all fields of customer")
     void checkIfAllFieldsAreCorrect() {
