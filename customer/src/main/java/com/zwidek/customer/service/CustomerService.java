@@ -4,6 +4,7 @@ import com.zwidek.customer.model.Customer;
 import com.zwidek.customer.model.CustomerRegistrationRequest;
 import com.zwidek.customer.model.FraudCheckResponse;
 import com.zwidek.customer.repository.CustomerRepository;
+import lombok.AllArgsConstructor;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
@@ -13,7 +14,7 @@ import java.util.Objects;
 import java.util.Optional;
 
 @Service
-@RequiredArgsConstructor
+@AllArgsConstructor
 @Slf4j
 public class CustomerService {
     private final CustomerRepository customerRepository;
