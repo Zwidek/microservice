@@ -6,6 +6,7 @@ import com.zwidek.customer.repository.CustomerRepository;
 import com.zwidek.customer.service.CustomerService;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -47,10 +48,10 @@ public class CustomerController {
                 .orElse(ResponseEntity.notFound().build());
     }
 
-//    @RabbitListener(queues = "registration")
-//    public void rabbitListener(String message) {
-//        System.out.println(message);
-//    }
+    @RabbitListener(queues = "registration")
+    public void rabbitListener(String message) {
+        System.out.println(message);
+    }
 
     private StringBuilder welcomeMessage(CustomerRegistrationRequest request) {
         StringBuilder sb = new StringBuilder();

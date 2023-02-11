@@ -15,7 +15,7 @@ import java.util.UUID;
 @Component
 public class LoggInitializer {
 
-    @Pointcut("within(com.zwidek.fraud.controller..*)")
+    @Pointcut("within(com.zwidek.fraud.controller.*)")
     private void restController() {
     }
 

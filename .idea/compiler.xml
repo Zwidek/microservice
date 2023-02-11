@@ -8,16 +8,21 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="notification" />
+        <module name="oauth2-client" />
         <module name="eureka-server" />
         <module name="fraud" />
         <module name="spring-cloud-config" />
         <module name="customer" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ms-graph" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="notification" options="" />
+      <module name="oauth2-client" options="" />
       <module name="spring-cloud-config" options="" />
     </option>
   </component>
