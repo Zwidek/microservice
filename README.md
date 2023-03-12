@@ -5,7 +5,8 @@ Here is example of microservice
 
 To run app just type in terminal
 > "docker compose up -d"  
-then you have to run pgAdmin and create server (host: postgres name: root, password: root) with 2 databases (
+
+Then you have to run pgAdmin and create server (host: postgres name: root, password: root) with 2 databases (
 customer and fraud)
 After this, you can enjoy, and start applications. If you want to run more services - just change port and go!
 
