@@ -4,14 +4,12 @@ Hello,
 Here is example of microservice
 
 To run app just type in terminal
-> "docker compose up -d"  (must be downloaded docker before)
-then you have to log in into pgAdmin and create server (host: postgres name: root, password: root) with 2 databases (
+> "docker compose up -d"  
+then you have to run pgAdmin and create server (host: postgres name: root, password: root) with 2 databases (
 customer and fraud)
-
 After this, you can enjoy, and start applications. If you want to run more services - just change port and go!
 
-Here is also used load balancer - in short, CustomerApp hits to FreudApp, if you run FreudApp on multiple ports, you
-
+I used load balancer - in short, CustomerApp hits to FreudApp, if you run FreudApp on multiple ports, you
 will notice in console, how request spreads between app.
 
 Changes:
